@@ -1,0 +1,182 @@
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/*header*/
+
+.container {
+    width: 82rem;
+    margin: 0 auto;
+    padding: 8rem 0;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+.container p {
+    font-size: 1.6rem;
+}
+
+.section-title {
+    text-align:center;
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+.section-title::after {
+    content: attr(date-subtitle);
+    display: block;
+    font-size: 1.6rem;
+    color: #aaaaaa;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+header{
+    color: #fff;
+    background: url(../img/be.png);
+    background-size: cover;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+header h1 {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 2.6rem;
+    margin-bottom: 0.8rem;
+}
+
+header p {
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+.btn {
+    font-size: 5rem;
+    display: inline-block;
+    width: 35rem;
+    background: #fff;
+    color: #f39800;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8rem 0;
+    border-radius:0.5rem;
+    opacity: 0.9;   
+}
+
+.btn:hover {
+    opacity: 1.0;
+}
+
+
+
+/*features */
+
+.explanation {
+    background: #f8f8f8;
+}
+
+.feature {
+    margin-top: 3rem;
+}
+
+.feature .under {
+    border-bottom: solid 3px #87CEFA;
+}
+
+.feature h1 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    color: #333;
+
+}
+
+.feature p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.feature .desc {
+    width: 55rem;
+}
+
+.feature .desc ul {
+    font-size: 1.5rem;
+}
+
+.feature:nth-of-type(odd) .desc {
+    float: right;
+    padding-left: 4rem;
+}
+
+.feature:nth-of-type(even) .desc {
+    float: left;
+    padding-right: 4rem;
+}
+
+/*voices*/
+
+.section-title {
+    padding-bottom: 4rem;
+}
+
+.voices {
+    background: #f8f8f8;
+    border-right: 2rem;
+}
+
+.voices .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.voice {
+    width: 25rem;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+    padding: 6rem 4rem 2.5rem;
+}
+
+.voice img {
+    border-radius: 50%;
+    border: 1rem solod #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -5.5rem;
+}
+
+.voice h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.voice .under {
+    border-bottom: solid 3px lightblue;
+}
+
+.voice h1 {
+    padding-bottom: 1rem;
+}
+
+/*last*/
+#copy {
+    display: block;
+    font-size: smaller;
+    text-align:center;
+}
+
+
